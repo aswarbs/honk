@@ -2,7 +2,9 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"o_boid_waypoint","order":1,"path":"objects/o_boid_waypoint/o_boid_waypoint.yy",},
+    {"name":"o_menu_car","order":2,"path":"objects/o_menu_car/o_menu_car.yy",},
     {"name":"rm_lose","order":1,"path":"rooms/rm_lose/rm_lose.yy",},
+    {"name":"rm_mainmenu","order":2,"path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
     {"name":"lose_game","order":1,"path":"scripts/lose_game/lose_game.yy",},
     {"name":"snd_carcrash","order":2,"path":"sounds/snd_carcrash/snd_carcrash.yy",},
     {"name":"snd_engine","order":4,"path":"sounds/snd_engine/snd_engine.yy",},
