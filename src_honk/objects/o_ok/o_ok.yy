@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"o_hedge",
-  "eventList":[],
+  "%Name":"o_ok",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"o_hedge",
+  "name":"o_ok",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,10 +28,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_hedge",
-    "path":"sprites/spr_hedge/spr_hedge.yy",
+    "name":"spr_okt",
+    "path":"sprites/spr_okt/spr_okt.yy",
   },
   "spriteMaskId":null,
   "visible":true,
