@@ -64,6 +64,7 @@
     {"id":{"name":"spr_man","path":"sprites/spr_man/spr_man.yy",},},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
     {"id":{"name":"spr_parkspace","path":"sprites/spr_parkspace/spr_parkspace.yy",},},
+    {"id":{"name":"spr_start","path":"sprites/spr_start/spr_start.yy",},},
     {"id":{"name":"spr_you_lose","path":"sprites/spr_you_lose/spr_you_lose.yy",},},
   ],
   "resourceType":"GMProject",
