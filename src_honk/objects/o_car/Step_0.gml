@@ -1,4 +1,9 @@
 // Step Event of obj_car
+if(crashed)
+{
+	speed = 0;
+	return;
+}
 
 if(keyboard_check(ord("W")) || keyboard_check(ord("S")))
 {

@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 // Create Event of obj_car
+crashed = false;
 speed = 0;
 max_speed = 4;
 acceleration = 0.05;
