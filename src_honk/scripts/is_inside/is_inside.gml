@@ -20,10 +20,10 @@ function is_inside(obj_parent, obj_child) {
     if (child_left >= parent_left && child_right <= parent_right &&
         child_top >= parent_top && child_bottom <= parent_bottom)
     {
-        return true;  // The child is completely inside the parent
+        return true;  
     }
     else
     {
-        return false;  // The child is not completely inside the parent
+        return false;  
     }
 }
