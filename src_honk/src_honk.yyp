@@ -41,6 +41,8 @@
     {"id":{"name":"o_man","path":"objects/o_man/o_man.yy",},},
     {"id":{"name":"o_menu_car","path":"objects/o_menu_car/o_menu_car.yy",},},
     {"id":{"name":"o_parkspace","path":"objects/o_parkspace/o_parkspace.yy",},},
+    {"id":{"name":"o_hedge","path":"objects/o_hedge/o_hedge.yy",},},
+    {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
     {"id":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -75,6 +77,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
+    {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
