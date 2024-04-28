@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"o_enemy_car",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_block",
+  "eventList":[],
   "managed":true,
-  "name":"o_enemy_car",
+  "name":"o_block",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_car2",
-    "path":"sprites/spr_car2/spr_car2.yy",
+    "name":"spr_block",
+    "path":"sprites/spr_block/spr_block.yy",
   },
   "spriteMaskId":null,
   "visible":true,
