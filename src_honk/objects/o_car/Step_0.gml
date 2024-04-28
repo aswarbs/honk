@@ -49,3 +49,22 @@ else
 }
 x = clamp(x, 0, room_width);
 y = clamp(y, 0, room_height);
+
+
+
+block = instance_place(x, y, o_parkspace);
+if (instance_exists(block))
+{
+    x1 = bbox_left;
+    y1 = bbox_top;
+    x2 = bbox_right;
+    y2 = bbox_bottom;
+    x3 = block.bbox_left;
+    y3 = block.bbox_top;
+    x4 = block.bbox_right;
+    y4 = block.bbox_bottom;
+    if (rectangle_in_rectangle(x1, y1, x2, y2, x3, y3, x4, y4) == 1) // Only true if you're completely inside a block
+    {
+        end_level();
+    }
+}

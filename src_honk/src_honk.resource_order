@@ -25,4 +25,6 @@
     {"name":"spr_garage","order":2,"path":"sprites/spr_garage/spr_garage.yy",},
     {"name":"spr_man","order":1,"path":"sprites/spr_man/spr_man.yy",},
   ],
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[],
 }

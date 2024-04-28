@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"o_man",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_parkspace",
+  "eventList":[],
   "managed":true,
-  "name":"o_man",
+  "name":"o_parkspace",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_man",
-    "path":"sprites/spr_man/spr_man.yy",
+    "name":"spr_parkspace",
+    "path":"sprites/spr_parkspace/spr_parkspace.yy",
   },
   "spriteMaskId":null,
   "visible":true,
