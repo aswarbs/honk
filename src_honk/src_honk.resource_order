@@ -3,7 +3,6 @@
   "ResourceOrderSettings":[
     {"name":"o_boid_waypoint","order":1,"path":"objects/o_boid_waypoint/o_boid_waypoint.yy",},
     {"name":"o_menu_car","order":2,"path":"objects/o_menu_car/o_menu_car.yy",},
-    {"name":"o_start","order":3,"path":"objects/o_start/o_start.yy",},
     {"name":"rm_lose","order":1,"path":"rooms/rm_lose/rm_lose.yy",},
     {"name":"rm_mainmenu","order":2,"path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
     {"name":"lose_game","order":1,"path":"scripts/lose_game/lose_game.yy",},
@@ -15,6 +14,7 @@
     {"name":"spr_car_menu","order":5,"path":"sprites/spr_car_menu/spr_car_menu.yy",},
     {"name":"spr_car2","order":2,"path":"sprites/spr_car2/spr_car2.yy",},
     {"name":"spr_logo","order":7,"path":"sprites/spr_logo/spr_logo.yy",},
+    {"name":"spr_maze","order":8,"path":"sprites/spr_maze/spr_maze.yy",},
     {"name":"spr_menu","order":4,"path":"sprites/spr_menu/spr_menu.yy",},
     {"name":"spr_start","order":6,"path":"sprites/spr_start/spr_start.yy",},
     {"name":"spr_you_lose","order":3,"path":"sprites/spr_you_lose/spr_you_lose.yy",},
