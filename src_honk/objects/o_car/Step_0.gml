@@ -1,6 +1,7 @@
 // Step Event of obj_car
 if(crashed)
 {
+	if audio_is_playing(snd_reverse) audio_stop_sound(snd_reverse);
 	speed = 0;
 	return;
 }
@@ -11,6 +12,8 @@ if(keyboard_check(ord("W")) || keyboard_check(ord("S")))
 	if (keyboard_check(ord("W")))
 	{
 	    speed += acceleration;
+		if audio_is_playing(snd_reverse) audio_stop_sound(snd_reverse);
+		
 		
 		// Turn only if going forward/backwards
 		if (keyboard_check(ord("D")))
@@ -28,6 +31,12 @@ if(keyboard_check(ord("W")) || keyboard_check(ord("S")))
 	{
 	    speed -= acceleration;
 		
+		// Play reverse sound
+		if !audio_is_playing(snd_reverse)
+		{
+			audio_play_sound(snd_reverse, 1, true);
+		}
+		
 		// Inverse Turning on reverse.
 		if (keyboard_check(ord("D")))
 		{
@@ -43,13 +52,10 @@ if(keyboard_check(ord("W")) || keyboard_check(ord("S")))
 
 	// Clamp speed between min/max
 	speed = clamp(speed, -(max_speed/2), max_speed);
-
-
-
-
 }
 else
 {
+	if audio_is_playing(snd_reverse) audio_stop_sound(snd_reverse);
 	speed = speed * friction_constant;
 }
 x = clamp(x, 0, room_width);
