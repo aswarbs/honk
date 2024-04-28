@@ -22,6 +22,7 @@ else
 	}
 }
 
+image_angle = (point_direction(x, y, t_x, t_y) - 90);
 if (x < t_x) x += spd;
 if (x > t_x) x -= spd;
 if (y < t_y) y += spd;
