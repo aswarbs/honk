@@ -8,3 +8,5 @@ max_speed = 4;
 acceleration = 0.05;
 turning_speed = 0.65;
 friction_constant = 0.95;
+
+audio_play_sound(snd_engine, 15, true);
