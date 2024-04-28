@@ -3,6 +3,7 @@
   "ResourceOrderSettings":[
     {"name":"o_boid_waypoint","order":1,"path":"objects/o_boid_waypoint/o_boid_waypoint.yy",},
     {"name":"o_menu_car","order":2,"path":"objects/o_menu_car/o_menu_car.yy",},
+    {"name":"o_menu_car","order":2,"path":"objects/o_menu_car/o_menu_car.yy",},
     {"name":"o_start","order":3,"path":"objects/o_start/o_start.yy",},
     {"name":"rm_lose","order":1,"path":"rooms/rm_lose/rm_lose.yy",},
     {"name":"rm_mainmenu","order":2,"path":"rooms/rm_mainmenu/rm_mainmenu.yy",},
