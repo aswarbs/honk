@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_man",
-    "path":"sprites/spr_man/spr_man.yy",
+    "name":"person",
+    "path":"sprites/person/person.yy",
   },
   "spriteMaskId":null,
   "visible":true,
