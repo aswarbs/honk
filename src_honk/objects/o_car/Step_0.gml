@@ -65,6 +65,6 @@ if (instance_exists(block))
     y4 = block.bbox_bottom;
     if (rectangle_in_rectangle(x1, y1, x2, y2, x3, y3, x4, y4) == 1) // Only true if you're completely inside a block
     {
-        game_end();
+        end_level();
     }
 }

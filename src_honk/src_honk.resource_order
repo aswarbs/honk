@@ -20,6 +20,7 @@
     {"name":"o_enemy_car","order":2,"path":"objects/o_enemy_car/o_enemy_car.yy",},
     {"name":"o_man","order":1,"path":"objects/o_man/o_man.yy",},
     {"name":"o_parkspace","order":3,"path":"objects/o_parkspace/o_parkspace.yy",},
+    {"name":"end_level","order":1,"path":"scripts/end_level/end_level.yy",},
     {"name":"spr_garage","order":2,"path":"sprites/spr_garage/spr_garage.yy",},
     {"name":"spr_man","order":1,"path":"sprites/spr_man/spr_man.yy",},
     {"name":"spr_parkspace","order":3,"path":"sprites/spr_parkspace/spr_parkspace.yy",},
