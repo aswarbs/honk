@@ -2,8 +2,10 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"o_boid_waypoint","order":1,"path":"objects/o_boid_waypoint/o_boid_waypoint.yy",},
+    {"name":"rm_lose","order":1,"path":"rooms/rm_lose/rm_lose.yy",},
     {"name":"lose_game","order":1,"path":"scripts/lose_game/lose_game.yy",},
     {"name":"spr_boid_waypoint","order":1,"path":"sprites/spr_boid_waypoint/spr_boid_waypoint.yy",},
     {"name":"spr_car2","order":2,"path":"sprites/spr_car2/spr_car2.yy",},
+    {"name":"spr_you_lose","order":3,"path":"sprites/spr_you_lose/spr_you_lose.yy",},
   ],
 }

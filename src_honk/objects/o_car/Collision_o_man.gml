@@ -1,2 +1,2 @@
 
-game_end();
+lose_game();
