@@ -1,9 +1,9 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"o_start","order":1,"path":"objects/o_start/o_start.yy",},
     {"name":"o_boid_waypoint","order":1,"path":"objects/o_boid_waypoint/o_boid_waypoint.yy",},
     {"name":"o_menu_car","order":2,"path":"objects/o_menu_car/o_menu_car.yy",},
+    {"name":"o_start","order":1,"path":"objects/o_start/o_start.yy",},
     {"name":"o_hedge","order":3,"path":"objects/o_hedge/o_hedge.yy",},
     {"name":"Level2","order":3,"path":"rooms/Level2/Level2.yy",},
     {"name":"rm_lose","order":1,"path":"rooms/rm_lose/rm_lose.yy",},
