@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"spr_car2","order":2,"path":"sprites/spr_car2/spr_car2.yy",},
+  ],
 }
