@@ -1,12 +1,26 @@
-// Move in the current direction
-x += lengthdir_x(speed, direction);
-y += lengthdir_y(speed, direction);
+// Step Event of the object
 
-// Randomly alter the current direction
-var _r = random_range(-10, 10);
-direction += _r;
-image_angle += _r;
+if((!variable_instance_exists(self, "instance_array")))
+{
+	instance_array = [];
+	for (var i = 0; i < instance_number(o_boid_waypoint); i++;)
+	{
+	    instance_array[i] = instance_find(o_boid_waypoint, i);
+	}
+}
+else
+{
+	// Calculate distance to the current target waypoint
+	var _id = instance_array[current_waypoint];
+	t_x = _id.x;
+	t_y = _id.y;
+	
+	var _dist = point_distance(x, y, t_x, t_y);
+	if(_dist < 30)
+	{
+		current_waypoint = (current_waypoint + 1) mod (array_length(instance_array))
+	}
+}
 
-// Optional: Keep the object within the room boundaries
-x = clamp(x, 20, room_width - 20);
-y = clamp(y, 20, room_height - 20);
+x = lerp(x, t_x, spd);
+y = lerp(y, t_y, spd);
