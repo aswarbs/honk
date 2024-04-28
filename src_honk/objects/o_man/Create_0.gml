@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 // Movement speed
-speed = 2;
+spd = 0.05;
+speed = 1;
+t_x = 0;
+t_y = 0;
 
-// Angle of movement
-var _start_r = random(360);
-direction = _start_r;
-image_angle = _start_r;
+// Start with the first waypoint
+current_waypoint = 0;
