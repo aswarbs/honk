@@ -6,26 +6,40 @@ if(keyboard_check(ord("W")) || keyboard_check(ord("S")))
 	if (keyboard_check(ord("W")))
 	{
 	    speed += acceleration;
+		
+		// Turn only if going forward/backwards
+		if (keyboard_check(ord("D")))
+		{
+		    direction -= turning_speed;
+			image_angle -= turning_speed;
+		}
+		if (keyboard_check(ord("A")))
+		{
+		    direction += turning_speed;
+			image_angle += turning_speed;
+		}
 	}
 	if (keyboard_check(ord("S")))
 	{
 	    speed -= acceleration;
+		
+		// Inverse Turning on reverse.
+		if (keyboard_check(ord("D")))
+		{
+		    direction += turning_speed;
+			image_angle += turning_speed;
+		}
+		if (keyboard_check(ord("A")))
+		{
+		    direction -= turning_speed;
+			image_angle -= turning_speed;
+		}
 	}
 
 	// Clamp speed between min/max
-	speed = clamp(speed, -max_speed, max_speed);
+	speed = clamp(speed, -(max_speed/2), max_speed);
 
-	// Turn only if going forward/backwards
-	if (keyboard_check(ord("D")))
-	{
-	    direction -= turning_speed;
-		image_angle -= turning_speed;
-	}
-	if (keyboard_check(ord("A")))
-	{
-	    direction += turning_speed;
-		image_angle += turning_speed;
-	}
+
 
 
 }

@@ -1,12 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_car",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"o_man","path":"objects/o_man/o_man.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "o_man",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -30,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_car",
-    "path": "sprites/spr_car/spr_car.yy",
+    "name": "spr_man",
+    "path": "sprites/spr_man/spr_man.yy",
   },
   "spriteMaskId": null,
   "visible": true,

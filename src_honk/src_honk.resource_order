@@ -18,5 +18,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_man","order":1,"path":"sprites/spr_man/spr_man.yy",},
+    {"name":"o_man","order":1,"path":"objects/o_man/o_man.yy",},
   ],
 }
