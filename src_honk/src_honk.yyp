@@ -59,6 +59,7 @@
     {"id":{"name":"spr_car","path":"sprites/spr_car/spr_car.yy",},},
     {"id":{"name":"spr_car2","path":"sprites/spr_car2/spr_car2.yy",},},
     {"id":{"name":"spr_garage","path":"sprites/spr_garage/spr_garage.yy",},},
+    {"id":{"name":"spr_hedge","path":"sprites/spr_hedge/spr_hedge.yy",},},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
     {"id":{"name":"spr_man","path":"sprites/spr_man/spr_man.yy",},},
     {"id":{"name":"spr_maze","path":"sprites/spr_maze/spr_maze.yy",},},
