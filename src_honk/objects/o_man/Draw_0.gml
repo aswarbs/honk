@@ -3,6 +3,7 @@
 
 draw_self();
 draw_text(x, y, "mE!");
+draw_text(t_x, t_y, "TARGET");
 
 if (variable_instance_exists(self, "instance_array"))
 {

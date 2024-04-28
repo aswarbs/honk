@@ -22,5 +22,7 @@ else
 	}
 }
 
-x = lerp(x, t_x, spd);
-y = lerp(y, t_y, spd);
+if (x < t_x) x += spd;
+if (x > t_x) x -= spd;
+if (y < t_y) y += spd;
+if (y > t_y) y -= spd;

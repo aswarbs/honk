@@ -2,8 +2,7 @@
 // You can write your code in this editor
 
 // Movement speed
-spd = 0.05;
-speed = 1;
+spd = 1;
 t_x = 0;
 t_y = 0;
 

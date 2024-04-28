@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"lose_game",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"lose_game",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
